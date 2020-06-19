@@ -1,0 +1,99 @@
+/**COLORS**/
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  font-family: 'Bai Jamjuree', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+}
+
+.flex-wrapper {
+  background-color: darkcyan;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-wrapper .sections {
+  width: 80vw;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.flex-wrapper span {
+  font-weight: 600;
+}
+
+.flex-wrapper .download {
+  background-color: darkkhaki;
+}
+
+.flex-wrapper header {
+  background-color: #ecbead;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 80vw;
+}
+
+.flex-wrapper header .logo {
+  background-color: cornflowerblue;
+}
+
+.flex-wrapper header h1 {
+  background-color: darkgoldenrod;
+  font-weight: 600;
+}
+
+.flex-wrapper header .subtitle {
+  background-color: darkgray;
+}
+
+.flex-wrapper .sections .no-image-section {
+  background-color: #8477db;
+}
+
+.flex-wrapper .sections .no-image-section .section-title {
+  background-color: #ee7bb8;
+}
+
+.flex-wrapper .sections .no-image-section .section-text {
+  background-color: lemonchiffon;
+}
+
+.flex-wrapper .sections .image-section {
+  background-color: lightblue;
+}
+
+.flex-wrapper .sections .image-section .image {
+  background-color: lightcoral;
+}
+
+.flex-wrapper .sections .image-section .features {
+  background-color: lightgoldenrodyellow;
+}
+
+.flex-wrapper .sections .image-section .features .snippet {
+  background-color: lightpink;
+}
+
+.flex-wrapper .devices-image {
+  background-color: lightsteelblue;
+}
+
+.flex-wrapper .sponsors-section {
+  background-color: #6543a8;
+}
+/*# sourceMappingURL=style.css.map */

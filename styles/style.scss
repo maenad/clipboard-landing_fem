@@ -1,0 +1,85 @@
+@import "variables.scss";
+
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+}
+.flex-wrapper {
+    background-color: darkcyan;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .sections {
+        width: 80vw;
+        align-self: center;
+    }
+
+    span {
+        font-weight: 600;
+    }
+
+    .download {
+        background-color: darkkhaki;
+    }
+
+    header {
+        background-color: rgb(236, 190, 173);
+        align-self: center;
+        width: 80vw;
+
+
+        .logo {
+            background-color: cornflowerblue;
+
+            img {
+
+            }
+        }
+        h1 {
+            background-color: darkgoldenrod;
+            font-weight: 600;
+        }
+        .subtitle {
+            background-color: darkgray;
+        }
+
+    }
+    .sections {
+        .no-image-section {
+            background-color: rgb(132, 119, 219);
+            .section-title {
+                background-color: rgb(238, 123, 184);
+            }
+            .section-text {
+                background-color: lemonchiffon;
+            }
+        }
+        .image-section {
+            background-color: lightblue;
+            .image {
+                background-color: lightcoral;
+            }
+            .features {
+                background-color: lightgoldenrodyellow;
+                .snippet {
+                    background-color: lightpink;
+
+
+                }
+            }
+        }
+    }
+    .devices-image {
+        background-color: lightsteelblue;
+    }
+    .sponsors-section {
+        background-color: rgb(101, 67, 168);
+    }
+}
